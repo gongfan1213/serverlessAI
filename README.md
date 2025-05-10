@@ -1,269 +1,31 @@
-### 内容简介
-这是一部指导读者在Serverless架构下开发、部署和运维机器学习项目的实战性著作。
-
-本书由阿里巴巴官方出品，来自阿里和蚂蚁集团的Serverless产品专家、AI算法专家、Serverless解决方案架构师、Serverless工具链技术负责人联合撰写，全方位地总结了阿里巴巴在Serverless架构下的机器学习实战经验，得到了企业界和学术界10余位专家的高度认可。
-
-
-在具体内容上，本书主要包含如下几方面。
-
-1. **Serverless架构基础**
-
-详细介绍了Serverless架构的概念、特点和应用场景，Serverless架构下应用开发、部署的流程和方法，以及传统的Web框架如何向Serverless架构迁移和部署，这些都是在Serverless架构下开发和部署应用必备的基础知识。
-
-2. **机器学习算法和机器学习框架在Serverless架构下的应用**
-
-详细讲解了支持向量机、神经网络等各种常用的机器学习算法和模型，以及Scikit-learn、TensorFlow、PyTorch、PaddlePaddle主流深度学习框架与Serverless架构的结合，为读者在Serverless架构下开发AI应用打下基础。 
-
-3. **Serverless架构下的机器学习项目实战**
-
-首先通过几个实战案例讲解了图像识别、模型升级、情感分析等机器学习领域高频应用的无服务化，为传统的AI应用迁移和部署到Serverless架构给出指引；然后通过两个综合案例讲解了在Serverless架构下AI应用从设计、开发、部署到运维的全流程。 
-
-4. **Serverless应用性能优化**
-
-总结了Serverless架构下应用性能优化的方法和经验，比如冷启动的优化方案、开发注意事项等。
-
-
-### 序一
-### 序二
-
-### 序三
-### 序四
-
-### 序五
-
-### 前言
-
-### 第1章 初识Serverless架构
-
-1.1 Serverless架构的概念
-
-1.2 Serverless架构的特点
-
-1.2.1 优势与价值
-
-1.2.2 面临的挑战
-
-1.3 Serverless架构的应用场景
-
-### 第2章 Serverless架构下的应用开发
-
-2.1 Serverless架构下的应用开发流程
-
-2.2 与ServerFul应用开发流程对比
-
-2.3 传统Web框架部署与迁移
-
-2.3.1 请求集成方案
-
-2.3.2 其他方案
-
-2.4 Serverless应用的开发和部署
-
-2.4.1 如何开发、部署Serverless应用
-
-2.4.2 如何对Serverless应用进行调试
-
-2.4.3 通过开发者工具进行依赖安装和项目构建
-
-2.4.4 Serverless架构与CI/CD工具的结合
-
-2.5 Serverless应用的可观测性
-
-### 第3章 机器学习入门
-
-3.1 什么是人工智能
-
-3.1.1 人工智能、机器学习和深度学习
-
-3.1.2 人工智能的发展
-
-3.1.3 人工智能的典型应用场景
-
-3.2 常用的机器学习算法
-
-3.2.1 常见的监督学习算法
-
-3.2.2 常见的无监督学习算法
-
-3.2.3 其他常见的深度学习模型
-
-### 第4章 主流机器学习框架与Serverless架构结合
-
-4.1 scikit-learn与Serverless架构结合
-
-4.1.1 scikit-learn介绍
-
-4.1.2 scikit-learn实践：鸢尾花数据分类
-
-4.1.3 与Serverless架构结合：文本分类
-
-4.2 TensorFlow与Serverless架构结合
-
-4.2.1 TensorFlow介绍
-
-4.2.2 TensorFlow实践：基于人工智能的衣物区分
-
-4.2.3 与Serverless架构结合：目标检测系统
-
-4.3 PyTorch与Serverless架构结合
-
-4.3.1 PyTorch介绍
-
-4.3.2 PyTorch实践：图像分类系统
-
-4.3.3 与Serverless架构结合：对姓氏进行分类
-
-4.4 PaddlePaddle与Serverless架构结合
-
-4.4.1 PaddlePaddle介绍
-
-4.4.2 PaddlePaddle实践：手写数字识别任务
-
-4.4.3 与Serverless架构结合：Paddle-OCR项目开发与部署
-
-### 第5章 Serverless架构下的AI项目实战
-
-5.1 Serverless架构下的AI应用
-
-5.1.1 项目的开发与部署
-
-5.1.2 冷启动优化
-
-5.1.3 训练与推理性能优化
-
-5.1.4 模型更新迭代方案
-
-5.2 模型升级在Serverless架构下的实现与应用
-
-5.2.1 模型升级迭代需求背景介绍
-
-5.2.2 猫狗识别项目训练
-
-5.2.3 将模型部署到Serverless架构
-
-5.2.4 用户反馈与模型迭代
-
-5.2.5 项目总结
-
-5.3 人脸识别在Serverless架构下的应用
-
-5.3.1 人脸识别技术介绍
-
-5.3.2 人脸识别模型训练
-
-5.3.3 人脸识别模型的应用
-
-5.3.4 项目Serverless化
-
-5.3.5 项目总结
-
-5.4 文本情感分析在Serverless架构下的应用
-
-5.4.1 文本情感分析介绍
-
-5.4.2 情感分析模型的训练
-
-5.4.3 部署到Serverless架构
-
-5.4.4 项目Serverless化
-
-5.4.5 项目总结
-
-### 第6章 基于Serverless架构的智能问答系统
-
-6.1 需求分析
-
-6.2 整体设计
-
-6.2.1 数据库设计
-
-6.2.2 原型图设计
-
-6.2.3 接口设计
-
-6.2.4 架构设计
-
-6.3 项目开发
-
-
-6.3.1 项目初始化
-
-6.3.2 数据库与表的建设
-
-6.3.3 管理后台相关能力的配置
-
-6.3.4 业务逻辑开发
-
-6.4 项目部署与运维
-
-6.5 项目预览
-
-
-6.6 项目总结
-
-### 第7章 基于Serverless架构的人工智能相册小程序
-
-7.1 需求分析
-
-7.2 整体设计
-
-7.2.1 数据库设计
-
-7.2.2 原型图设计
-
-7.2.3 细节设计
-
-7.2.4 架构设计
-
-7.3 项目开发
-
-7.3.1 项目初始化
-
-7.3.2 小程序开发
-
-7.3.3 服务端开发
-
-7.3.4 管理系统开发
-
-7.4 项目预览
-
-7.5 经验积累
-
-7.5.1 Web框架与阿里云函数计算
-
-7.5.2 如何进行本地调试
-
-### 第8章 Serverless应用的优化与注意事项
-
-8.1 函数基础与资源编排
-
-8.1.1 函数并不是“函数”
-
-8.1.2 对无状态性的认识
-
-8.1.3 资源评估的重要性
-
-8.1.4 工作流的加持
-
-8.2 警惕冷启动
-
-8.2.1 云厂商侧的冷启动优化方案
-
-8.2.2 开发者侧降低冷启动影响的方案
-
-8.3 应用开发注意事项
-
-8.3.1 如何上传文件
-
-8.3.2 文件读写与持久化方法
-
-8.3.3 慎用部分Web框架的特性
-
-8.3.4 应用组成结构注意事项
-
-8.3.5 如何实现WebSocket
-
-8.3.6 善于利用平台特性 
-
-
+# 第12章 检索增强应用
+
+## 一、虚拟环境安装
+
+```shell
+conda create -n rag python=3.10 -y
+conda activate rag 
+pip install -r requirements.txt \
+-i https://pypi.mirrors.ustc.edu.cn/simple \
+--trusted-host=pypi.mirrors.ustc.edu.cn
+```
+
+## 二、下载向量化模型文件
+
+```shell
+# 模型下载脚本从aliendao.cn首页下载
+# 链接为 https://aliendao.cn/model_download.py
+# linux下使用wget命令下载，windows下直接在浏览器打开链接下载
+wget https://aliendao.cn/model_download.py
+# 从aliendao.cn下载text2vec-base-chinese模型文件
+python model_download.py --e --repo_id shibing624/text2vec-base-chinese \
+--token YPY8KHDQ2NAHQ2SG
+# 下载后的文件在./dataroot/models/shibing624/text2vec-base-chinese目录
+```
+
+## 三、运行
+
+```shell
+python rag-demo.py
+```
 
